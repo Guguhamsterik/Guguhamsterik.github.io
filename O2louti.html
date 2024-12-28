@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>一楼</title>
+<style type="text/css">
+#apDiv1 {	position: absolute;
+	width: 1580px;
+	height: 900px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	width: 93px;
+	height: 83px;
+	z-index: 1;
+	left: 735px;
+	top: 820px;
+}
+#apDiv7 {
+	position: absolute;
+	width: 99px;
+	height: 115px;
+	z-index: 3;
+	left: 219px;
+	top: 0px;
+}
+#apDiv3 {	position: absolute;
+	width: 99px;
+	height: 115px;
+	z-index: 3;
+	left: 219px;
+	top: 34px;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<embed src="music/75Sand.mp3" width="0" height="0" loop autoplay autostart=ture>
+
+<body onload="MM_preloadImages('images/jiantou/UP2.png','images/jiantou/DOWN2.png')">
+<div id="apDiv1"><img src="images/2.png" alt="" width="1580" height="899" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="poly" coords="1524,937,1572,936,1545,964" href="#" onclick="MM_goToURL('parent','O1zdxyzy.html');return document.MM_returnValue" />
+    <area shape="rect" coords="536,81,1389,591" href="#" onclick="MM_goToURL('parent','O2louti_dxryxpy.html');return document.MM_returnValue" />
+    <area shape="rect" coords="1442,83,1618,589" href="#" onclick="MM_goToURL('parent','O2louti_cyxjs.html');return document.MM_returnValue" />
+  </map>
+</div>
+<div id="apDiv7"><img src="images/jiantou/UP.png" alt="" name="Image3" width="100" height="100" id="Image3" onclick="MM_goToURL('parent','O3erlou.html');return document.MM_returnValue" onmousedown="MM_swapImage('Image3','','images/jiantou/UP2.png',1)" onmouseup="MM_swapImgRestore()" /></div>
+<div id="apDiv2"><img src="images/jiantou/DOWN.png" alt="" name="Image1" width="100" height="100" id="Image1" onclick="MM_goToURL('parent','O1zdxyzy.html');return document.MM_returnValue" onmousedown="MM_swapImage('Image1','','images/jiantou/DOWN2.png',1)" onmouseup="MM_swapImgRestore()" /></div>
+</body>
+</html>
